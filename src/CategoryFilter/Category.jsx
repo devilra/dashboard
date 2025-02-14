@@ -252,7 +252,7 @@ const Category = () => {
             className={` absolute -top-2 right-52 rounded-md  text-[13px] w-[160px] px-5 py-1  ${
               cart.length > 0
                 ? "bg-red-500 text-white hover:bg-red-600"
-                : "bg-neutral-800 text-white cursor-not-allowed"
+                : "bg-red-100 text-white cursor-not-allowed"
             }`}
             disabled={cart.length === 0}
             onClick={() => dispatch(clearCart())}
